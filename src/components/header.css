@@ -1,0 +1,56 @@
+/* Basic container styling for the header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  /* Styling for the form container */
+  header form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  /* Styling for the input field */
+  header input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  /* Change input placeholder color */
+  header input[type="text"]::placeholder {
+    color: #b3d1f2;
+  }
+  
+  /* Styling for the search button */
+  header button {
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  header button:hover {
+    background-color: #084298;
+  }
+  
+  .error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+  }

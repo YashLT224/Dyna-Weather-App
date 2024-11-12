@@ -1,0 +1,61 @@
+/* Card container styling */
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Hover effect for the card */
+  .weather-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* City name styling */
+  .weather-card h3 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  /* Temperature styling */
+  .weather-card p {
+    font-size: 18px;
+    color: #666666;
+    margin: 5px 0;
+  }
+  
+  /* Specific styling for condition text */
+  .weather-card .condition {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4a90e2;
+    text-transform: capitalize;
+  }
+  
+  /* Remove button styling */
+  .weather-card button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Remove button hover effect */
+  .weather-card button:hover {
+    background-color: #d93636;
+  }
+  
